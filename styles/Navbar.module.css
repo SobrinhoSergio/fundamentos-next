@@ -1,0 +1,29 @@
+/*NavBar*/
+
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar li+li{
+    margin-left: 20px;
+}
+
+.navbar a{
+    color: white;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+.navbar a:hover{
+    background-color: white;
+    color: black;
+}
